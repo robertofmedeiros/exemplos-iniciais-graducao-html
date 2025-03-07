@@ -1,0 +1,32 @@
+body {
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    display: flex;
+    width: 20%;
+}
+
+.painel {
+    display: flex;
+    padding: 20px;
+}
+
+.primario {
+    padding-right: 10px;
+    flex-direction: column;
+}
+
+.secundario {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.secundario .campos {
+    display: flex;
+    flex-direction: row;
+    padding-right: 4px ;
+}

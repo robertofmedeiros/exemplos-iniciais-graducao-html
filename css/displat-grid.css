@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+    border: 2px solid black;
+}
+
+.par {
+    background-color: blue;
+}
