@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 4px;
+}
+
+.container-1 {
+    border: 5px solid;
+}
+
+.container-2 {
+    border: 5px solid;
+}
+
+.header-container {
+    background-color: blue;
+    max-width: 100%;
+    padding: 2px;
+    color: white;
+}
+
+.body {
+    padding: 20px;
+}
