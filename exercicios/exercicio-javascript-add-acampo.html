@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function addCampoNome() {
+            const divContainer = document.querySelector("#div-campos");
+            divContainer.innerHTML = "";
+            divContainer.innerHTML = `<input type="text" id="input-nome">`
+        }
+
+        function addCamposFor() {
+            const divContainer = document.querySelector("#div-campos-new");
+            divContainer.innerHTML = "";
+
+            let campos = "";
+
+            for (let i = 0; i < 5; i++) {
+                campos += `<input type="text" id="input-nome-${i}"> <br>`
+            }
+
+            divContainer.innerHTML = campos;
+        }
+    </script>
+</head>
+<body>
+    <div id="div-campos">
+
+    </div>
+
+    <div id="div-campos-new">
+
+    </div>
+
+    <button onclick="addCampoNome()">Campo Nome</button>
+    <button onclick="addCamposFor()">Multiplos Campos Nome</button>
+</body>
+</html>

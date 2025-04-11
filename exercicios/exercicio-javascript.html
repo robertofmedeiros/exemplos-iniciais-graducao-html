@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/exercicio-javascript.css">
+    <script>
+        function bodyAzul() {
+            const body = document.querySelector("body");
+            body.classList.remove("body-amarelo");
+            body.classList.toggle('body-azul');
+        }
+
+        function bodyAmarelo() {
+            const body = document.querySelector("body");
+            body.classList.remove("body-azul");
+            body.classList.toggle('body-amarelo');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="bodyAzul()">Azul</button>
+        <button onclick="bodyAmarelo()">Amarelo</button>
+    </div>
+</body>
+</html>
